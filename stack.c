@@ -1,6 +1,6 @@
 #include <stdio.h>
 int s[50];
-    int ele,top=-1,size,ch,i;
+int ele,top=-1,size,ch,i;
 void push()
 {
 if(top==size-1)
@@ -53,12 +53,12 @@ void main()
     }
     do
     {
-    printf("-----Menu-----\n");
+    printf("\n-----Menu-----\n");
     printf("1.push\n");
     printf("2.pop\n");
     printf("3.display\n");
     printf("4.Exit\n");
-    printf("enter your choice");
+    printf("enter your choice\n");
     scanf("%d",&ch);
     switch(ch)
     {
@@ -73,9 +73,4 @@ void main()
     default:printf("invalid choice");
     }
     }while(ch!=4);
-    }                        
-
-
-    
-    
-
+    }
