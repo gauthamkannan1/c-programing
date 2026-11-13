@@ -129,7 +129,6 @@ case 3:printf("preorder traversal");
        preorder(root);
        printf("\n");
        break;
-       scanf("%d",&value);
 case 4:printf("postorder traversal");
        postorder(root);
        printf("\n");
@@ -147,4 +146,3 @@ return 0;
 }
        
                             
-
